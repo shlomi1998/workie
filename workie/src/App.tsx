@@ -1,8 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Welcome from './Welcome';
+import myVar from './Vars';
 
 function App() {
+  console.log(myVar);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -16,8 +20,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Renn
+       bla bla
         </a>
+        <Welcome/>
       </header>
     </div>
   );

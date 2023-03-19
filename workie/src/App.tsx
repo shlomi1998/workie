@@ -1,11 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './dist/App.css';
 import Welcome from './Welcome';
-import myVar from './Vars';
+import * as myImportedObject from './Vars'
+import fs from "fs";
+
 
 function App() {
-  console.log(myVar);
+  console.log(myImportedObject.foo);
+const  vladislav ="heloo vladislav";
+const myChildren = ['shlomi', 'tal', 'vvladislav'];
+const someVar = true;
+
 
   return (
     <div className="App">
@@ -23,9 +29,18 @@ function App() {
        bla bla
         </a>
         <Welcome/>
+        <br></br>
+        <p className='Heloo'>{vladislav}</p>
+        
+        <ul>{myChildren.map(man => <li> {man} </li>)}</ul>
+
+        { someVar === true ? <span>I am TRUE</span> : <span>I am 
+        FALSE</span>}
+        
       </header>
     </div>
   );
 }
+
 
 export default App;

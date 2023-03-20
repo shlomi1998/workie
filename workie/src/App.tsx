@@ -5,13 +5,16 @@ import Welcome from './Welcome';
 import * as myImportedObject from './Vars'
 import fs from "fs";
 
-import InputViewer from "./InputViewer";
+
 import Birthday  from "./Birthday";
 import CountButton  from "./CountButton";
 import ShowHover from "./ShowHover";
 import CountDown from "./CountDown";
 import TodayTime  from "./TodayTime";
-
+// import InputViewer from "./InputViewer";
+import MyDivContaine from "./MyDivContainer";
+import Counter from "./Counter";
+import RandomImageCard from "./RandomImageCard"
 
 
 
@@ -77,9 +80,12 @@ const user = {
         <CountButton/>
         <ShowHover/>
         <CountDown time="3" />
-        < InputViewer/>
+        
+        <MyDivContaine/>
 
-        <input onClick={e=> console.log(e)} type="text" />
+
+        <RandomImageCard/>
+       <Counter/>
        
       </header>
     </div>

@@ -5,12 +5,15 @@ var logo_svg_1 = require("./logo.svg");
 require("./dist/App.css");
 var Welcome_1 = require("./Welcome");
 var myImportedObject = require("./Vars");
-var InputViewer_1 = require("./InputViewer");
 var Birthday_1 = require("./Birthday");
 var CountButton_1 = require("./CountButton");
 var ShowHover_1 = require("./ShowHover");
 var CountDown_1 = require("./CountDown");
 var TodayTime_1 = require("./TodayTime");
+// import InputViewer from "./InputViewer";
+var MyDivContainer_1 = require("./MyDivContainer");
+var Counter_1 = require("./Counter");
+var RandomImageCard_1 = require("./RandomImageCard");
 function App() {
     console.log(myImportedObject.foo);
     var vladislav = "heloo vladislav";
@@ -59,7 +62,8 @@ function App() {
             react_1["default"].createElement(CountButton_1["default"], null),
             react_1["default"].createElement(ShowHover_1["default"], null),
             react_1["default"].createElement(CountDown_1["default"], { time: "3" }),
-            react_1["default"].createElement(InputViewer_1["default"], null),
-            react_1["default"].createElement("input", { onClick: function (e) { return console.log(e); }, type: "text" }))));
+            react_1["default"].createElement(MyDivContainer_1["default"], null),
+            react_1["default"].createElement(RandomImageCard_1["default"], null),
+            react_1["default"].createElement(Counter_1["default"], null))));
 }
 exports["default"] = App;

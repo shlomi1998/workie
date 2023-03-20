@@ -1,7 +1,9 @@
 import React from 'react';
-import Greeting from './Greeting';
-import Inigo from './Inigo';
-
-export default function Welcome() {
- return <span><Inigo />, <Greeting /></span>
+function Welcome(props:any) {
+ const name = props.name;
+ const prefix = props.prefix;
+ return (
+ <span>Hello, {prefix} {name}!</span>// Component will be here
+ );
 }
+export default Welcome;

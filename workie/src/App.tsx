@@ -5,14 +5,45 @@ import Welcome from './Welcome';
 import * as myImportedObject from './Vars'
 import fs from "fs";
 
+import InputViewer from "./InputViewer";
+import Birthday  from "./Birthday";
+import CountButton  from "./CountButton";
+import ShowHover from "./ShowHover";
+import CountDown from "./CountDown";
+import TodayTime  from "./TodayTime";
+
+
+
+
 
 function App() {
   console.log(myImportedObject.foo);
 const  vladislav ="heloo vladislav";
 const myChildren = ['shlomi', 'tal', 'vvladislav'];
 const someVar = true;
+const fathers = ['Avraham', 'Itzhak', 'Yaakov'];
+const listItems = fathers.map((father, index) =>
+ <li key={index}>
+ {father}
+ </li>
+);
+const b=5;
+const items = [];
+for (let i = 10; i > 0; i--) {
+items.push(<li key={i}>{i}</li>);
+}
+const user = {
+  name: 'Ran',
+  lastName: 'Bar-Zik',
+  city: 'Petah Tiqwa',
+  id: '666',
+  }
 
-
+  const User = {
+    name: 'Moshe',
+    age: 10,
+    }
+   
   return (
     <div className="App">
       <header className="App-header">
@@ -36,7 +67,20 @@ const someVar = true;
 
         { someVar === true ? <span>I am TRUE</span> : <span>I am 
         FALSE</span>}
-        
+
+        <ul>{listItems}</ul>
+        <ul>{items}</ul>
+
+        <Birthday user={User}/>
+        <TodayTime/>
+        <Welcome name="Moshe" prefix="Doctor" />
+        <CountButton/>
+        <ShowHover/>
+        <CountDown time="3" />
+        < InputViewer/>
+
+        <input onClick={e=> console.log(e)} type="text" />
+       
       </header>
     </div>
   );

@@ -15,11 +15,13 @@ import TodayTime  from "./TodayTime";
 import MyDivContaine from "./MyDivContainer";
 import Counter from "./Counter";
 import RandomImageCard from "./RandomImageCard"
+import MyRouter from "./MyRouter"
 
 
 
 
 function App() {
+
   console.log(myImportedObject.foo);
 const  vladislav ="heloo vladislav";
 const myChildren = ['shlomi', 'tal', 'vvladislav'];
@@ -87,6 +89,7 @@ const user = {
         <RandomImageCard/>
        <Counter/>
        
+       <MyRouter/>
       </header>
     </div>
   );

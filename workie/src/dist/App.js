@@ -14,6 +14,7 @@ var TodayTime_1 = require("./TodayTime");
 var MyDivContainer_1 = require("./MyDivContainer");
 var Counter_1 = require("./Counter");
 var RandomImageCard_1 = require("./RandomImageCard");
+var MyRouter_1 = require("./MyRouter");
 function App() {
     console.log(myImportedObject.foo);
     var vladislav = "heloo vladislav";
@@ -64,6 +65,7 @@ function App() {
             react_1["default"].createElement(CountDown_1["default"], { time: "3" }),
             react_1["default"].createElement(MyDivContainer_1["default"], null),
             react_1["default"].createElement(RandomImageCard_1["default"], null),
-            react_1["default"].createElement(Counter_1["default"], null))));
+            react_1["default"].createElement(Counter_1["default"], null),
+            react_1["default"].createElement(MyRouter_1["default"], null))));
 }
 exports["default"] = App;

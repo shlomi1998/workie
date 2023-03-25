@@ -11,11 +11,11 @@ body{
 
 .navbar{
 width: 100vw;
-height: 16vh;
+height: 16%;
 // background:$primary ;
 position: sticky;
 top:0px;
-z-index: 10;
+z-index:1;
 
 &__container{
     width: 100%;

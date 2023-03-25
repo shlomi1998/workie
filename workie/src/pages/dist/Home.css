@@ -11,7 +11,6 @@ body {
 }
 .wraps__homeImg {
   text-align: center;
-  width: 500px;
-  filter: opacity(0.5);
-  box-shadow: 0px 5px 20px 2px black;
+  width: 450px;
+  filter: opacity(0.8);
 }

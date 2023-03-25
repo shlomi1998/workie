@@ -1,20 +1,66 @@
-body{
-    overflow-x: hidden;
-    background-color: rgb(255, 255, 255);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, "Segoe UI", Tahoma, Geneva, sans-serif;
+}
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+  max-height: 100%;
+}
+.bodyContainer {
+  min-height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+//   justify-content: space-between;
+  align-items: center;
+  padding: .5em;
 }
 
-.wraps{
+$primary: linear-gradient(
+  to bottom right,
+  rgba(4, 236, 248, 0.467),
+  rgb(65, 239, 155),
+  rgb(115, 237, 184)
+);
+
+.antLogo {
+  width: 5rem;
+  height: 5rem;
+  color: white;
+  border: 2px solid rgba(47, 43, 43, 0.4);
+  padding: 0.7rem;
+  border-radius: 25%;
+  background: $primary;
+}
+.navbar {
+  //   border: 1px solid black;
+  width: 100%;
+  height: 20vh;
+  background-color: #9ffccf;
+
+  &__container {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
-    &__homeImg{
-        text-align: center;
-        width: 450px;
-        filter: opacity(0.8);
-        // box-shadow: 0px 5px 20px 2px black;
-        
-        
-    }
+  }
 }
 
+.titel {
+  font-family: "Copse";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 74px;
+  line-height: 0px;
+}
+
+.wraps__homeImg {
+  width: 40vw;
+}

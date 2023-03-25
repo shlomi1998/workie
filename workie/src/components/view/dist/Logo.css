@@ -1,28 +1,9 @@
-.wraps {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.wraps__logo {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  width: 100%;
-  height: 120px;
-  border: none;
-  background: rgba(228, 251, 240, 0.5);
-}
-.wraps__logo__ant {
-  width: 43px;
-  height: 43px;
+.antLogo {
+  width: 3rem;
+  height: 3rem;
   color: white;
-  border: solid 2px;
-  border-color: rgba(47, 43, 43, 0.4);
-  padding: 10px 10px 10px 10px;
+  border: 2px solid rgba(47, 43, 43, 0.4);
+  padding: 0.7rem;
   border-radius: 25%;
   background: linear-gradient(to bottom right, rgba(4, 236, 248, 0.467), #41ef9b, #73edb8);
 }

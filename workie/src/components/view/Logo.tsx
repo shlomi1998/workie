@@ -1,18 +1,8 @@
-import React from 'react'
-import './dist/Logo.css'
-
-
-
+import React from "react";
+// import "./dist/Logo.css";
 
 function Logo() {
-  return (
-    <div className='wraps' >
-      <div className='wraps__logo'>
-        <img className='wraps__logo__ant' src='images/ant.png'/>
-       
-      </div>
-    </div>
-  )
+  return <img className="antLogo" src="images/ant.png" />;
 }
 
 export default Logo;

@@ -1,26 +1,54 @@
-
-   $primary: #9ffccf;
-  
+$primary: #9ffccf;
 
 
-body{
+
+body {
     padding: 0;
     margin: 0;
+
 }
 
 
-.navbar{
-width: 100vw;
-height: 16%;
-// background:$primary ;
-position: sticky;
-top:0px;
-z-index:1;
+.navbar {
 
-&__container{
-    width: 100%;
-    height:100%;
-    // background:$primary ;   
-}
-}
+    width: 100vw;
+    height: 16%;
+    // background:$primary ;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 
+    &__container {
+        width: 100%;
+        height: 100%;
+
+        // background:$primary ;  
+        &__whoWeAre {
+            position: absolute;
+            top: 24%;
+            left: 2.5%;
+            color: rgb(0, 0, 0);
+            width: 100px;
+            height: 56px;
+            background: #5ae4a1;
+            border-radius: 36px;
+            font-family: 'Quicksand';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 31px;
+            text-align: center;
+            border: 1px solid rgb(131, 131, 131);
+            
+        }
+
+        &__whoWeAre:hover {
+            
+            background: #54d395;
+            cursor: pointer;
+            border: 2px solid rgb(74, 73, 73);
+            color: rgb(0, 0, 0);
+        }
+     
+    }
+}

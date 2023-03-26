@@ -5,7 +5,7 @@ import './dist/Home.css'
 import Welcome from '../components/view/Welcome'
 import LoginButton from '../components/view/LoginButton'
 import SignUp from '../components/view/SignUp'
-
+import { Link } from 'react-router-dom'
 
 
 function Home() {
@@ -19,6 +19,7 @@ function Home() {
         <Welcome/>
         <LoginButton/>
         <SignUp/>
+        
         
 
        </div>

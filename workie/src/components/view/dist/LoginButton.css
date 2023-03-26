@@ -3,14 +3,13 @@
   justify-content: center;
   align-items: center;
 }
+
 .login__Button {
   color: white;
   width: 273px;
   height: 56px;
   background: #5ae4a1;
   border-radius: 36px;
-}
-.login__Button__text {
   font-family: "Quicksand";
   font-style: normal;
   font-weight: 400;

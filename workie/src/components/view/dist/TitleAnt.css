@@ -1,0 +1,23 @@
+.wrapsLogo {
+  position: relative;
+  top: -40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrapsLogo .imgTitil {
+  width: 32px;
+  position: relative;
+  top: 60px;
+  left: -75px;
+  align-self: center;
+  z-index: -1;
+}
+.wrapsLogo .title_ {
+  font-family: "Copse";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 63px;
+  line-height: 79px;
+  text-align: center;
+}

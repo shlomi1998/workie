@@ -6,7 +6,7 @@ function SignUp() {
   return (
     <div className='signUp'>
       <p className='signUp__p'>Don't have an account? </p>
-       <Link className='SignUpLink' to="/"> Sign up</Link> 
+       <Link className='SignUpLink' to="/enrollment">Sign up</Link> 
     </div>
   )
 }

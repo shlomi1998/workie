@@ -6,7 +6,7 @@ function LoginWraps() {
   return (
     <div className='loginWarps1'>
     <div className='loginWarps'>
-        <h2 className='loginWarps__titel'>entrance</h2>
+        <h2 className='loginWarps__titel'>log in</h2>
         <p className='loginWarps__paragraph'>Log in to view the newest jobs</p>
         <input className='checkEmail' type="text" placeholder='   email or phone number'/>
         <input className='checkPassword' type="password" placeholder='   password'/>

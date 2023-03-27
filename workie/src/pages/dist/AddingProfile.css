@@ -1,0 +1,76 @@
+.wrapsProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.wrapsProfile__ {
+  background: rgba(255, 255, 255, 0.66);
+  box-shadow: 6px 10px 12px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 30px;
+  position: relative;
+  top: -60px;
+  width: 80%;
+  height: 78vh;
+  max-width: 600px;
+}
+.wrapsProfile__ .wrapsProfile__JustLittle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #006336;
+  margin-top: 20px;
+}
+.wrapsProfile__ .profilePicture {
+  width: 30%;
+  border-radius: 50%;
+  filter: drop-shadow(8px 8px 10px gray);
+}
+.wrapsProfile__ .profilePicture:hover {
+  border-radius: 50%;
+  filter: drop-shadow(8px 8px 10px gray);
+  border: 1px solid #6f6f6f;
+  cursor: pointer;
+  transform: scale(1.06);
+  transition: transform ease-in 0.2s;
+}
+.wrapsProfile__ .ProfileStatus {
+  overflow-y: auto;
+  padding-left: 3%;
+  width: 70%;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 2px solid #9292fe;
+  border-radius: 5px;
+  margin-left: 30px;
+  background: #e4f1fe;
+}
+.wrapsProfile__ .AddAprofilePicture {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #4A5568;
+  margin-bottom: 40px;
+}
+.wrapsProfile__ .letsStart__button {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  height: 40px;
+  width: 280px;
+  border: 1px solid #4A5568;
+  border-radius: 36px;
+  background: #5adb9d;
+  border-radius: 36px;
+  color: white;
+  font-family: "Roboto";
+  font-size: larger;
+  font-weight: 400;
+}
+.wrapsProfile__ .letsStart__button:hover {
+  background: #48b681;
+  cursor: pointer;
+}

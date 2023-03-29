@@ -63,3 +63,37 @@
   background: #48b681;
   cursor: pointer;
 }
+.wraps .RegistrationEnvelope .defult {
+  color: #000000;
+  font-weight: 600;
+}
+.wraps .RegistrationEnvelope .GoodWriting {
+  color: #000000;
+  font-weight: 800;
+}
+.wraps .RegistrationEnvelope .wrongWriting {
+  color: #ff0000;
+  font-weight: 800;
+}
+.wraps .RegistrationEnvelope .passwordIconWrapper {
+  position: relative;
+}
+.wraps .RegistrationEnvelope .passwordIconWrapper .fa-eye {
+  position: absolute;
+  top: 35%;
+  left: 88%;
+  color: #48b681;
+  font-size: medium;
+  cursor: pointer;
+}
+.wraps .RegistrationEnvelope .passwordIconWrapper .fa-eye-slash {
+  position: absolute;
+  top: 35%;
+  left: 88%;
+  color: #48b681;
+  font-size: medium;
+  cursor: pointer;
+}
+.wraps .RegistrationEnvelope .passwordIconWrapper .fa-eye, .wraps .RegistrationEnvelope .passwordIconWrapper .fa-eye-slash:hover {
+  color: #5ce4a2;
+}

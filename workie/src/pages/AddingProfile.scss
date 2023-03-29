@@ -22,21 +22,7 @@
         margin-top: 20px;
         
     }
-    .profilePicture{
-        width: 30%;
-        border-radius: 50%;
-        filter: drop-shadow(8px 8px 10px gray);
-        
-    }
-    .profilePicture:hover{
-        border-radius: 50%;
-        filter: drop-shadow(8px 8px 10px gray);
-        border: 1px solid rgb(111, 111, 111);
-        cursor: pointer;
-        transform: scale(1.06);
-        transition: transform ease-in .2s ;
-        
-    }
+
 
     .ProfileStatus{
       overflow-y: auto;
@@ -59,6 +45,66 @@
       color: #4A5568;
       margin-bottom: 40px;
     }
+
+    .WrapsProfilePicture{
+      margin-left:25% ;
+      align-items: center;
+      width: 50%;
+      height: 24vh;
+      
+      
+
+      .profilePicture{
+        width: 50%;
+        border-radius: 100%;
+        filter: drop-shadow(8px 8px 10px gray);
+        
+    }
+    .profilePicture:hover{
+        border-radius: 50%;
+        filter: drop-shadow(8px 8px 10px gray);
+        border: 1px solid rgb(111, 111, 111);
+        cursor: pointer;
+        transform: scale(1.06);
+        transition: transform ease-in .2s ;
+        
+    }
+
+
+
+
+      .inputFile{
+        position: relative;
+        font-size: x-large;
+        top: -26%;
+        left: 28%;
+        
+        border: none;
+        outline: none;
+        transform: rotate(0deg);
+        opacity:0;
+      }
+      // .inputFile:hover{
+        
+      // }
+
+      input[type="file"] {
+        border: none;
+        outline: none;
+      }
+      .fa-pen{
+        position: relative;
+        top: -38%;
+        left: 10%;
+        color: #000000;
+        font-size: medium;
+        cursor: pointer; 
+        pointer-events: none;
+      }
+    }
+
+
+   
     
     .letsStart__button{
       margin-top: 35px;

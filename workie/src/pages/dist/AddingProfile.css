@@ -23,19 +23,6 @@
   color: #006336;
   margin-top: 20px;
 }
-.wrapsProfile__ .profilePicture {
-  width: 30%;
-  border-radius: 50%;
-  filter: drop-shadow(8px 8px 10px gray);
-}
-.wrapsProfile__ .profilePicture:hover {
-  border-radius: 50%;
-  filter: drop-shadow(8px 8px 10px gray);
-  border: 1px solid #6f6f6f;
-  cursor: pointer;
-  transform: scale(1.06);
-  transition: transform ease-in 0.2s;
-}
 .wrapsProfile__ .ProfileStatus {
   overflow-y: auto;
   padding-left: 3%;
@@ -55,6 +42,48 @@
   text-align: center;
   color: #4A5568;
   margin-bottom: 40px;
+}
+.wrapsProfile__ .WrapsProfilePicture {
+  margin-left: 25%;
+  align-items: center;
+  width: 50%;
+  height: 24vh;
+}
+.wrapsProfile__ .WrapsProfilePicture .profilePicture {
+  width: 50%;
+  border-radius: 100%;
+  filter: drop-shadow(8px 8px 10px gray);
+}
+.wrapsProfile__ .WrapsProfilePicture .profilePicture:hover {
+  border-radius: 50%;
+  filter: drop-shadow(8px 8px 10px gray);
+  border: 1px solid #6f6f6f;
+  cursor: pointer;
+  transform: scale(1.06);
+  transition: transform ease-in 0.2s;
+}
+.wrapsProfile__ .WrapsProfilePicture .inputFile {
+  position: relative;
+  font-size: x-large;
+  top: -26%;
+  left: 28%;
+  border: none;
+  outline: none;
+  transform: rotate(0deg);
+  opacity: 0;
+}
+.wrapsProfile__ .WrapsProfilePicture input[type=file] {
+  border: none;
+  outline: none;
+}
+.wrapsProfile__ .WrapsProfilePicture .fa-pen {
+  position: relative;
+  top: -38%;
+  left: 10%;
+  color: #000000;
+  font-size: medium;
+  cursor: pointer;
+  pointer-events: none;
 }
 .wrapsProfile__ .letsStart__button {
   margin-top: 35px;

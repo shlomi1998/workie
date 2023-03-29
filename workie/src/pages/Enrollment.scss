@@ -79,6 +79,48 @@ text-align: center;
 
    } 
 
+   .defult{
+      color: #000000;
+      font-weight: 600; 
+   }
+
+
+   .GoodWriting{
+      color: #000000;
+      font-weight: 800;
+   }
+  
+
+   .wrongWriting{
+      color: #ff0000;
+      font-weight: 800;
+      
+   }
+
+   .passwordIconWrapper{
+      position: relative;
+      .fa-eye{
+         position: absolute;
+         top: 35%;
+         left: 88%;
+         color:  #48b681;
+         font-size: medium;
+         cursor: pointer;
+      }
+      .fa-eye-slash{
+         position: absolute;
+         top: 35%;
+         left: 88%;
+         color:  #48b681;
+         font-size: medium;
+         cursor: pointer;
+      }
+
+      .fa-eye,.fa-eye-slash:hover{
+         color:  #5ce4a2;
+      }
+   }
+
 
    
 }
